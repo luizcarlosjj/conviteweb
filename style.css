@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url('./src/fundo.jpeg');
-}
-
 h1 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
@@ -21,6 +17,11 @@ h2 {
 
 .presenca {
     text-align: center;
+    background-image: url('src/fundo.jpeg');
+    background-size: contain;
+    padding: 20px 10px 0px 10px;
+    border-top: 2px solid #000;
+    border-radius: 20px;
 }
 
 .icone-wts {
@@ -29,5 +30,10 @@ h2 {
 
 .Lista-presentes {
     text-align: center;
-    padding: 10px;
+    padding: 20px 10px 0px 10px;
+    background-image: url('src/fundo.jpeg');
+    background-size: contain;
+    border-top: 2px solid #000;
+    border-radius: 20px;
 }
+
