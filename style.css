@@ -37,3 +37,26 @@ h2 {
     border-radius: 20px;
 }
 
+.hour {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.text-fim {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #3a3a3a;
+    display: flex;
+    text-align: baseline;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.link-text {
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
